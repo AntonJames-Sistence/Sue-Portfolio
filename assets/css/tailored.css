@@ -20,5 +20,13 @@
 #picture {
     width: 180px;
     height: 180px;
-    border-radius: 20px;
+    border-radius: 10px;
+}
+
+.item {
+    transition: all 0.2s;
+}
+.item:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
 }
